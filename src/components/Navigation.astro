@@ -1,5 +1,9 @@
 ---
-const { path, title } = Astro.props;
+
 ---
 
-<a href={`/astroBlog${path}`}>{title}</a>
+<div class="nav-links">
+  <a href="/astroBlog/">Home</a>
+  <a href="/astroBlog/about/">About</a>
+  <a href="/astroBlog/blog/">Blog</a>
+</div>
